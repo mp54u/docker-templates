@@ -2,22 +2,21 @@
 <Container>
 <Name>MythTv-28</Name>
 <Beta>True</Beta>
-<Projec>https://www.mythtv.org/</Projec>
+<Project>https://www.mythtv.org/</Project>
 <Category>MediaApp:Other MediaServer:Video MediaServer:Other</Category>
-<Date>2016-07-25</Date>
+<Date>2016-07-23</Date>
 <Changes> 
 [center][font size=5]MythTv .28 Change Log[/font][/center]
 [font size=4]2016.07.24[/font]
 - starting out now...
 - Updated to phusion .28
 - Added mythbuntu/.28 ppa
-
 </Changes>
 <Project>https://www.mythtv.org/wiki</Project>
-<Overview>Myth-Tv .28, tv software, with mythweb</Overview>
+<Overview>Myth-Tv .28 tv software, with mythweb</Overview>
 <Support></Support>
 <Description></Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/sparkly-mythtv/</Registry>
+<Registry>https://registry.hub.docker.com/u/mp54u/mythtv/</Registry>
 <Repository>mp54u/mythtv</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
