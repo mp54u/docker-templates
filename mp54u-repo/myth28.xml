@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>MythTv-28</Name>
+<Name>Myth28</Name>
 <Beta>True</Beta>
-<Project>https://www.mythtv.org/</Project>
 <Category>MediaApp:Other MediaServer:Video MediaServer:Other</Category>
-<Date>2016-07-23</Date>
+<Date>2016-07-24</Date>
 <Changes> 
-[center][font size=5]MythTv .28 Change Log[/font][/center]
+[center][font size=5]Mythtv .28 Docker Changelog[/font][/center]
 [font size=4]2016.07.24[/font]
-- starting out now...
-- Updated to phusion .28
-- Added mythbuntu/.28 ppa
+- Built on phusion 0.9.19(based off ubuntu 16.04)
+- Mythtv from mythbuntu .28 ppa
+- updated to jre 8 (Not that this matters)
+- Uses the code from Sparklyballs's mythtv container.  This is 95% based off his work.   
+I fixed a couple of path changes in the Dockerfile for changes to php5 to php7 and changed
+packages that needed to be changed due to the change to phusion base.
+- Mythweb appears to work with no issues.
+- I was able to schedule some recordings after working through the mythtv-setup.
+SEE BELOW for the biggest hurdle that I can't seem to get past for public consumption.
+
+[center][font size=5]Mythtv .28 Docker OPEN ISSUES[/font][/center]
+- QT5 issues with keyboard in mythtv-setup.  Mouse works fine, most keys work
+letters and numbers.  but enter key and arrow keys do not work.  There are
+numerous bugs in QT5 that seem to be related and I have not narrowed this
+down.  If you use the mythtv-setup in RDP,  you will have to use the down arrow 
+key as the Enter key.  So,  I use my mouse to highlight the option I want to use
+than hit the down arrow key for enter,   use mouse where you can.   Pain in the 
+rear but is what it is for now.
 </Changes>
 <Project>https://www.mythtv.org/wiki</Project>
 <Overview>Myth-Tv .28 tv software, with mythweb</Overview>
 <Support></Support>
 <Description></Description>
-<Registry>https://registry.hub.docker.com/u/mp54u/mythtv/</Registry>
-<Repository>mp54u/mythtv</Repository>
+<Registry>https://registry.hub.docker.com/u/mp54u/testdocker/</Registry>
+<Repository>mp54u/testdocker</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
