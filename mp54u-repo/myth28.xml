@@ -30,8 +30,8 @@ rear but is what it is for now.
 <Overview>Myth-Tv .28 tv software, with mythweb</Overview>
 <Support></Support>
 <Description></Description>
-<Registry>https://registry.hub.docker.com/u/mp54u/testdocker/</Registry>
-<Repository>mp54u/testdocker</Repository>
+<Registry>https://registry.hub.docker.com/u/mp54u/myth28/</Registry>
+<Repository>mp54u/myth28</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
