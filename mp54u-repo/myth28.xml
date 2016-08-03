@@ -10,7 +10,7 @@
 - Built on phusion 0.9.19(based off ubuntu 16.04)
 - Mythtv from mythbuntu .28 ppa
 - updated to jre 8 (Not that this matters)
-- Uses the code from Sparklyballs's mythtv container.  This is 95% based off his work.   
+- Uses the code from Sparklyballs's mythtv container.  This is 99.9% based off his work.   
 I fixed a couple of path changes in the Dockerfile for changes to php5 to php7 and changed
 packages that needed to be changed due to the change to phusion base.
 - Mythweb appears to work with no issues.
@@ -23,8 +23,9 @@ letters and numbers.  but enter key and arrow keys do not work.  There are
 numerous bugs in QT5 that seem to be related and I have not narrowed this
 down.  If you use the mythtv-setup in RDP,  you will have to use the down arrow 
 key as the Enter key.  So,  I use my mouse to highlight the option I want to use
-than hit the down arrow key for enter,   use mouse where you can.   Pain in the 
-rear but is what it is for now.
+than hit the down arrow key for enter where needed,   use mouse where you can.   Pain in the 
+rear but is what it is for now.  All alpha numeric keys appear to work fine but issues with modifiers and anything else.
+
 </Changes>
 <Project>https://www.mythtv.org/wiki</Project>
 <Overview>Myth-Tv .28 tv software, with mythweb</Overview>
